@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+$(document).ready(function(){
+  
+ var reallyLongArray = ["Phillies", "Cubs", "Yankees", "Red Sox", "Orioles"]; 
+  
+    // appending inside
+    $.each(reallyLongArray, function (count, item) {
+        var newLI = '<li>' + item + '</li>';
+        $('#main').append("<ul>" + newLI + "</ul>");
+    });
+
+    // string concatenate and set innerHTML
+    /*var myhtml = '';
+    $.each(reallyLongArray, function (count, item) {
+      myhtml += '<li>' + item + '</li>';
+    });
+    $('#teams').html(myhtml);*/
+});
+</script>
+</head>
+<body>
+
+<div id="main">
+    <ul id="teams">
+    
+    </div>
+</div>
+
+</body>
+</html>
