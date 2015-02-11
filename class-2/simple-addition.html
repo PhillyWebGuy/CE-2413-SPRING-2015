@@ -9,7 +9,7 @@
    $(document).ready(function() {
       
       $("button").click(function() {
-          var myValue = $(".myTextInput").val();
+          var myValue = Number($(".myTextInput1").val()) + Number($(".myTextInput2").val());
           $(".myTextOutput").html(myValue);
       });
       
@@ -20,13 +20,15 @@
     </head>
     <body>
        
-       <input type="text" class='myTextInput'>
+       My First Number: <input type="text" class='myTextInput1'>
+       <br>My Second Number: <input type="text" class='myTextInput2'>
        <p>
-         <div class='myTextOutput'>
+         Sum: <div class='myTextOutput'>
              
          </div>
-         <button>Write</button>
+         
        </p>
+       <button>Calculate</button>
        
         
     </body>
