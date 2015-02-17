@@ -1,0 +1,12 @@
+$(function(){
+    
+    var stateList = [];
+
+    stateList.push("Pennsylvania");
+    stateList.push("New Jersey");
+    stateList.push("Delaware");
+    stateList.push("New York");
+
+    console.dir(stateList);
+
+});
