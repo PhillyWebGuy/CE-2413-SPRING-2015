@@ -8,5 +8,7 @@ $(function() {
         $(this).css("color", "blue");
         $(this).css("background-color", "white");
    });
+   
+   
     
 });

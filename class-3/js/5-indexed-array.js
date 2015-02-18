@@ -25,6 +25,6 @@ $(function(){
 
     var mySelect = buildSelect(stateList);
 
-    document.write(mySelect);
+    $('body').html(mySelect);
 
 });
