@@ -1,0 +1,5 @@
+$(function() {
+  
+  console.dir(Modernizr);
+    
+});
