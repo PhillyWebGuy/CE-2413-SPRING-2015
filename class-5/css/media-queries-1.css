@@ -1,0 +1,26 @@
+.header {
+    padding: 2%;
+    width: 100%;
+    border: 1px solid black;
+}
+.navigation {
+    width: 34%;
+    border: 1px solid black;
+    float: left;
+}
+.menu {
+    width: 80%; 
+}
+.menu li {
+    padding: 2%;
+    margin: 2%;
+    background: #ccc;
+    list-style-type: none;
+    border: 1px solid black;
+}
+.main {
+    padding: 2%;
+    width: 60%;
+    border: 1px solid black;
+    float: left;
+}
