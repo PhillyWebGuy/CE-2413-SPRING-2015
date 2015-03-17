@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+        <script src="js/show-hide-1.js"></script>
+         <style>
+          .topLevel {
+              border: solid 1px black;
+              width: 20%;
+              cursor: pointer;
+              list-style-type: none;
+          }
+          .subLevel {
+              height: 0;
+              overflow: hidden;
+              
+          }
+          .subLevel li {
+               cursor: pointer;
+               
+          }
+         </style>
+
+    </head>
+    <body>
+        
+       <ul class="menu">
+           <li class="topLevel">Link 1
+           <ul class="subLevel">
+               <li>Sub-link 1</li>
+               <li>Sub-link 2</li>
+               <li>Sub-link 3</li>
+           </ul>
+           </li>
+           <li class="topLevel">Link 2
+           <ul class="subLevel">
+               <li>Sub-link 1</li>
+               <li>Sub-link 2</li>
+           </ul>
+           </li>
+       </ul>
+            
+        </div>
+    </body>
+</html>
