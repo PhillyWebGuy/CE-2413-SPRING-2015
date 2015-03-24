@@ -1,0 +1,109 @@
+<!doctype HTML>
+<head>
+    <style>
+        html {
+            font-size: 10px;
+        }
+        h1 {
+            font-size: 2rem; /*30px*/
+        }
+        @media screen and (max-width: 800px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+        h3 {
+            font-size; 1.5rem; /*15px*/
+        }
+        @media screen and (max-width: 800px) {
+            h3 {
+                font-size: 1.2rem;
+            }
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        @media screen and (max-width: 800px) {
+            p {
+                font-size: 1.0rem;
+            }
+        }
+        .page {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px black;
+            padding: 2%;
+        }
+         @media screen and (max-width: 800px) {
+            .page {
+                width: 100%;
+                padding: 0;
+            }
+        }
+        .menu {
+            width: 30%;
+            float: left;
+            padding: 2%;
+            border: solid 1px black;
+        }
+        @media screen and (max-width: 800px) {
+            .menu {
+                width: 100%;
+                padding: 0;
+            }
+        }
+        .content-block {
+            width: 60%;
+            float: right;
+            border: solid 1px black;
+            padding: 2%;
+        }
+        @media screen and (max-width: 800px) {
+            .content-block {
+                width: 100%;
+                padding: 0;
+            }
+        }
+        .content-image {
+            float: right;
+            width: 40%;
+            height: auto;
+            padding: 2%;
+        }
+        @media screen and (max-width: 800px) {
+            .content-image {
+                width: 90%;
+                float: none;
+            }
+        }
+        .clear-float {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="page">
+        <div class="menu">
+            <ul>
+                <li>Link 1</li>
+                <li>Link 2</li>
+                <li>Link 3</li>
+                <li>Link 4</li>
+            </ul>
+        </div>
+        <div class="content-block">
+            <img class="content-image" src="images/fall-of-rome.jpg">
+            <h1>The Fall of Rome</h1>
+            <h3>An excerpt</h3>
+            
+            <p>
+                Agriculture is the foundation of manufactures; since the productions of nature are the materials of art. Under the Roman empire, the labour of an industrious and ingenious people was variously, but incessantly employed, in the service of the rich. In their dress, their table, their houses, and their furniture, the favourites of fortune united every refinement of conveniency, of elegance, and of splendour, whatever could soothe their pride or gratify their sensuality. Such refinements, under the odious name of luxury, have been severely arraigned by the moralists of every age; and it might perhaps be more conducive to the virtue, as well as happiness, of mankind, if all possessed the necessities, and none of the superfluities, of life. But in the present imperfect condition of society, luxury, though it may proceed from vice or folly, seems to be the only means that can correct the unequal distribution of property. The diligent mechanic, and the skilful artist, who have obtained no share in the division of the earth, receive a voluntary tax from the possessors of land; and the latter are prompted, by a sense of interest, to improve those estates, with whose produce they may purchase additional pleasures. This operation, the particular effects of which are felt in every society, acted with much more diffusive energy in the Roman world. The provinces would soon have been exhausted of their wealth, if the manufactures and commerce of luxury had not insensibly restored to the industrious subjects the sums which were exacted from them by the arms and authority of Rome.
+            </p>
+        </div>
+        <br class="clear-float">
+    </div>
+    
+</body>
+</html>

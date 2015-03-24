@@ -1,0 +1,17 @@
+{
+    "menu" : 
+    [
+        {
+            "link": "http://www.yahoo.com",
+            "text": "Yahoo!"
+        },
+        {
+            "link": "http://www.google.com",
+            "text": "Google"
+        },
+        {
+            "link": "http://www.c9.io",
+            "text": "C9.io"
+        }
+    ]
+}
